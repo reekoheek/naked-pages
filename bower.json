@@ -1,0 +1,20 @@
+{
+  "name": "index-replace",
+  "version": "0.0.1",
+  "authors": [
+    "Jafar Shadiq <jafar@xinix.co.id>"
+  ],
+  "dependencies": {
+      "naked": "git@xinixhost.com:internal/naked.git",
+      "zeptojs": "*",
+      "font-awesome": "http://fontawesome.io/assets/font-awesome-4.0.3.zip"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
