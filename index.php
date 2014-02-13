@@ -10,6 +10,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <link rel="stylesheet" href="<?php echo base('/bower_components/naked/css/naked.css') ?>">
+    <link rel="stylesheet" href="<?php echo base('/bower_components/font-awesome/css/font-awesome.min.css') ?>">
+    <link rel="shortcut icon" href="<?php echo base('/favicon.ico') ?>">
     <style>
         .container {
              padding-top:20px
@@ -27,12 +29,6 @@
     </style>
 </head>
 <body>
-    <!-- <div class="navbar">
-        <ul class="button-group centered">
-            <li><a href="#" class="button">Welcome</a></li>
-        </ul>
-    </div> -->
-
     <div class="container">
         <ul class="listview" style="border: 1px solid #eeeeee;">
             <h5>Index of <?php echo $URI ?></h5>
