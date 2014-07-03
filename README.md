@@ -5,7 +5,7 @@ Default index listing (not only) for NGINX, and some custom error pages ;) This 
 someone who want a beauty yet light responsive web listing page. Or maybe **h5ai alternative**.
 
 #Features
-- Using our neat CSS framework - Naked! **(Private repo / Xinixman access only)**
+- Using our neat CSS framework - Naked!
 - Responsive page
 - Much more lighter than h5ai
 
@@ -48,14 +48,8 @@ ErrorDocument 404 /_nnn/404.php
 ErrorDocument 403 /_nnn/403.php
 ```
 
-#Configuration (Apache)
+# Configuration
 All config is only an array described in `config/config.php`. You can ignore listing your `naked-pages` directory
 by tell the config where you install your `naked-pages`. There you can also ignoring the folder/file based on you
-patterns, for example if you want to ignore `.DS_Store‎`, just add `.DS_Store‎` fo `fileExcludePatterns` entry.
-Easy heh?
-
-#Installation (NGINX)
-To be defined later
-
-#Configuration (NGINGX)
-To be defined later
+patterns, for example if you want to ignore `.DS_Store‎`, just add `.DS_Store‎` fo `fileExcludePatterns` entry. If you want
+to show folder / file size you can change `showSize` to `true`. Easy heh?
