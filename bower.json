@@ -5,9 +5,10 @@
     "Jafar Shadiq <jafar@xinix.co.id>"
   ],
   "dependencies": {
-      "naked": "git@xinixhost.com:internal/naked.git",
+      "naked": "https://github.com/xinix-technology/naked.git",
+      "font-mfizz": "git@github.com:mfizz-inc/font-mfizz.git",
       "zeptojs": "*",
-      "font-awesome": "http://fontawesome.io/assets/font-awesome-4.0.3.zip"
+      "font-awesome": ""
   },
   "license": "MIT",
   "ignore": [

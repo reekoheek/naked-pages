@@ -11,10 +11,18 @@
 
     <link rel="stylesheet" href="<?php echo base('/bower_components/naked/css/naked.css') ?>">
     <link rel="stylesheet" href="<?php echo base('/bower_components/font-awesome/css/font-awesome.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base('/bower_components/font-mfizz/font/font-mfizz.css') ?>">
     <link rel="shortcut icon" href="<?php echo base('/favicon.ico') ?>">
     <style>
+        body { font-family: "Menlo", "Monaco", monospace; }
         .container {
              padding-top:20px
+        }
+
+        ul.list-group li a .entry {
+            display: inline;
+            position: relative;
+            bottom: 5px
         }
 
         @media only screen and (max-width: 480px) {
