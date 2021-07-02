@@ -4,15 +4,15 @@ naked-pages
 Default index listing (not only) for NGINX, and some custom error pages ;) This is good choice for
 someone who want a beauty yet light responsive web listing page. Or maybe **h5ai alternative**.
 
-#Features
+# Features
 - Using our neat CSS framework - Naked!
 - Responsive page
 - Much more lighter than h5ai
 
-#Proof of Concept
+# Proof of Concept
 ![PoC](https://github.com/krisanalfa/naked-pages/raw/master/poc/_nnn.png)
 
-#Installation (Apache)
+# Installation (Apache)
 - Clone this repo to wherever you want
 - From command line, go to inside `naked-pages` folder and do `bower install` from there
 - Link the `naked-pages` to somewhere accessible by your web server (inside your www root directory).
